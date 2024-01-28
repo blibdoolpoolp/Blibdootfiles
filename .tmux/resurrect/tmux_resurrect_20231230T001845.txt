@@ -1,0 +1,5 @@
+pane	2	0	1	:*M	0	albuntoo	:/opt	1	bash	:
+pane	2	0	1	:*M	1	albuntoo	:/home/alex/.tmux	0	bash	:
+pane	2	0	1	:*M	2	albuntoo	:/home/alex/.tmux/plugins/tmux-sidebar	0	htop	:htop
+window	2	0	:bash	1	:*M	41c6,163x71,0,0{80x71,0,0,2,82x71,81,0[82x35,81,0,1,82x35,81,36,3]}	:
+state	2	

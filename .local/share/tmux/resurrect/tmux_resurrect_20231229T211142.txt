@@ -1,0 +1,8 @@
+pane	0	0	1	:*M	0	albuntoo	:/home/alex	0	bash	:
+pane	0	0	1	:*M	1	albuntoo	:/home/alex	1	bash	:
+pane	1	0	1	:*	0	albuntoo	:/home/alex	1	bash	:
+pane	1	0	1	:*	1	albuntoo	:/home/alex	0	bash	:
+pane	1	0	1	:*	2	albuntoo	:/home/alex	0	bash	:
+window	0	0	:bash	1	:*M	cd14,180x68,0,0[180x34,0,0,0,180x33,0,35,1]	:
+window	1	0	:bash	1	:*	989d,180x68,0,0{90x68,0,0,2,89x68,91,0[89x34,91,0,3,89x33,91,35,4]}	:
+state	1	

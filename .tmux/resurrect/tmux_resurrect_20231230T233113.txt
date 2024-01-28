@@ -1,0 +1,17 @@
+pane	Beautiful	1	0	:	0	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Beautiful	1	0	:	1	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	0	htop	:htop
+pane	Beautiful	2	0	:	0	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Beautiful	2	0	:	1	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	0	bash	:
+pane	Beautiful	3	0	:-	0	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	1	bash	:
+pane	Beautiful	4	1	:*	0	ne .zshrc	:/home/alex	0	ne	:zsh
+pane	Beautiful	4	1	:*	1	alex@albuntoo:/mnt/bigplex/big_plexy/downloads	:/mnt/bigplex/big_plexy/downloads	0	zsh	:zsh
+pane	Beautiful	4	1	:*	2	alex@albuntoo:~	:/home/alex	1	zsh	:zsh
+pane	Minimal	1	1	:*Z	0	alex@albuntoo: /mnt/smallplex	:/mnt/smallplex	0	bash	:
+pane	Minimal	1	1	:*Z	1	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Minimal	1	1	:*Z	2	alex@albuntoo: ~	:/home/alex	0	bash	:
+window	Beautiful	1	:bash	0	:	f05f,286x72,0,0{144x72,0,0,1,141x72,145,0,3}	:
+window	Beautiful	2	:bash	0	:	f063,286x72,0,0{144x72,0,0,4,141x72,145,0,5}	:
+window	Beautiful	3	:bash	0	:-	bda3,286x72,0,0,6	:
+window	Beautiful	4	:zsh	1	:*	b21a,159x63,0,0[159x31,0,0,14,159x31,0,32{79x31,0,32,15,79x31,80,32,16}]	:
+window	Minimal	1	:PowerCenter	1	:*Z	6a3e,286x72,0,0{149x72,0,0,7,136x72,150,0[136x36,150,0,8,136x35,150,37,9]}	off
+state	Beautiful	

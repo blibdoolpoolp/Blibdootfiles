@@ -1,0 +1,15 @@
+pane	5	1	1	:*	0	alex@albuntoo: /mnt/smallplex	:/mnt/smallplex	1	bash	:
+pane	Beautiful	1	1	:*	0	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Beautiful	1	1	:*	1	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	0	htop	:htop
+pane	Beautiful	2	0	:	0	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Beautiful	2	0	:	1	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	0	bash	:
+pane	Beautiful	3	0	:-	0	alex@albuntoo: ~/.ssh	:/home/alex/.ssh	1	bash	:
+pane	Minimal	1	1	:*Z	0	alex@albuntoo: /mnt/smallplex	:/mnt/smallplex	0	bash	:
+pane	Minimal	1	1	:*Z	1	alex@albuntoo: ~	:/home/alex	1	bash	:
+pane	Minimal	1	1	:*Z	2	alex@albuntoo: ~	:/home/alex	0	bash	:
+window	5	1	:bash	1	:*	5f02,286x72,0,0,13	:
+window	Beautiful	1	:bash	1	:*	f05f,286x72,0,0{144x72,0,0,1,141x72,145,0,3}	:
+window	Beautiful	2	:bash	0	:	c0cc,163x71,0,0{82x71,0,0,4,80x71,83,0,5}	:
+window	Beautiful	3	:bash	0	:-	b783,163x71,0,0,6	:
+window	Minimal	1	:PowerCenter	1	:*Z	6a3e,286x72,0,0{149x72,0,0,7,136x72,150,0[136x36,150,0,8,136x35,150,37,9]}	off
+state	5	Minimal

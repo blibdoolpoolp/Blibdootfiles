@@ -1,0 +1,16 @@
+pane	6	1	1	:*	0	alex@albuntoo:/opt/docker/stacks/homepage	:/opt/docker/stacks/homepage	1	zsh	:
+pane	8	1	1	:*	0	alex@albuntoo:~/.config/bat	:/home/alex/.config/bat	1	zsh	:
+pane	Beautiful	1	1	:*	0	alex@albuntoo:~/.config/bat	:/home/alex/.config/bat	0	zsh	:bash
+pane	Beautiful	1	1	:*	1	alex@albuntoo:/opt/docker	:/opt/docker	1	zsh	:zsh
+pane	Beautiful	2	0	:-	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	2	0	:-	1	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	2	0	:-	2	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Minimal	1	1	:*	0	alex@albuntoo:/opt/docker	:/opt/docker	1	zsh	:zsh
+pane	Minimal	1	1	:*	1	htop	:/home/alex	0	htop	:htop
+pane	Minimal	1	1	:*	2	ctop	:/opt/docker/stacks/wiki	0	ctop	:ctop
+window	6	1	:zsh	1	:*	64c2,95x29,0,0,13	:
+window	8	1	:zsh	1	:*	63a5,210x47,0,0,16	:
+window	Beautiful	1	:zsh	1	:*	6ef8,139x23,0,0{81x23,0,0,3,57x23,82,0,4}	:
+window	Beautiful	2	:zsh	0	:-	a494,163x45,0,0[163x21,0,0,7,163x23,0,22{80x23,0,22,8,82x23,81,22,9}]	:
+window	Minimal	1	:PowerCenter	1	:*	ec8b,210x47,0,0{113x47,0,0,10,96x47,114,0[96x23,114,0,11,96x23,114,24,18]}	off
+state	Minimal	8

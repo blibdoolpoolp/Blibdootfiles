@@ -1,0 +1,17 @@
+pane	Beautiful	1	1	:*	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	1	1	:*	1	alex@albuntoo:~/.ssh	:/home/alex/.ssh	1	zsh	:
+pane	Beautiful	2	0	:	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	2	0	:	1	alex@albuntoo:~/.ssh	:/home/alex/.ssh	1	zsh	:
+pane	Beautiful	3	0	:	0	alex@albuntoo:~/.ssh	:/home/alex/.ssh	1	zsh	:
+pane	Beautiful	4	0	:-	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	4	0	:-	1	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	4	0	:-	2	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Minimal	1	1	:*Z	0	alex@albuntoo:/mnt/smallplex	:/mnt/smallplex	0	zsh	:
+pane	Minimal	1	1	:*Z	1	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Minimal	1	1	:*Z	2	alex@albuntoo:~	:/home/alex	0	zsh	:
+window	Beautiful	1	:zsh	1	:*	7e31,86x48,0,0{44x48,0,0,1,41x48,45,0,2}	:
+window	Beautiful	2	:zsh	0	:	7e3a,86x48,0,0{44x48,0,0,3,41x48,45,0,4}	:
+window	Beautiful	3	:zsh	0	:	c962,86x48,0,0,5	:
+window	Beautiful	4	:zsh	0	:-	d071,86x48,0,0[86x23,0,0,6,86x24,0,24{42x24,0,24,7,43x24,43,24,8}]	:
+window	Minimal	1	:PowerCenter	1	:*Z	eb0e,206x48,0,0{109x48,0,0,9,96x48,110,0[96x24,110,0,10,96x23,110,25,11]}	off
+state	Minimal	Beautiful

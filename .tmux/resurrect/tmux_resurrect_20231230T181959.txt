@@ -1,0 +1,7 @@
+pane	2	0	1	:*	0	albuntoo	:/home/alex/usb_import/usb/Docker/stacks/requestors/config	0	bash	:
+pane	2	0	1	:*	1	albuntoo	:/home/alex/usb_import/usb	0	bash	:
+pane	2	0	1	:*	2	albuntoo	:/home/alex/.tmux/plugins/tmux-sidebar	1	bash	:
+pane	3	0	1	:*	0	albuntoo	:/home/alex/.ssh	1	bash	:
+window	2	0	:bash	1	:*	9a39,102x31,0,0{1x31,0,0,1,100x31,2,0[100x4,2,0,2,100x26,2,5,3]}	:
+window	3	0	:bash	1	:*	ad81,102x31,0,0,4	:
+state	3	

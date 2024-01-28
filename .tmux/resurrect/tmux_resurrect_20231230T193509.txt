@@ -1,0 +1,14 @@
+pane	Beautiful	0	0	:-	0	albuntoo	:/home/alex	0	zsh	:zsh
+pane	Beautiful	0	0	:-	1	albuntoo	:/home/alex/.ssh	1	bash	:
+pane	Beautiful	0	0	:-	2	albuntoo	:/home/alex/.ssh	0	htop	:htop
+pane	Beautiful	1	0	:	0	albuntoo	:/home/alex	1	bash	:
+pane	Beautiful	1	0	:	1	albuntoo	:/home/alex/.ssh	0	bash	:
+pane	Beautiful	2	1	:*	0	albuntoo	:/home/alex/.ssh	1	bash	:
+pane	Minimal	0	1	:*Z	0	albuntoo	:/mnt/smallplex	0	bash	:
+pane	Minimal	0	1	:*Z	1	albuntoo	:/home/alex	1	zsh	:zsh
+pane	Minimal	0	1	:*Z	2	albuntoo	:/home/alex	0	nano	:nano .tmux.conf
+window	Beautiful	0	:[tmux]	0	:-	0905,102x31,0,0{51x31,0,0,4,50x31,52,0[50x15,52,0,5,50x15,52,16,6]}	:
+window	Beautiful	1	:bash	0	:	05a0,102x31,0,0{51x31,0,0,7,50x31,52,0,8}	:
+window	Beautiful	2	:bash	1	:*	ad86,102x31,0,0,9	:
+window	Minimal	0	:PowerCenter	1	:*Z	2278,61x31,0,0{36x31,0,0,2,24x31,37,0[24x15,37,0,3,24x15,37,16,1]}	off
+state	Minimal	Beautiful

@@ -1,0 +1,1 @@
+/home/alex/.tmux/plugins/tmux-continuum	40

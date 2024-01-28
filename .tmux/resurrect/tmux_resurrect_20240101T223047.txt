@@ -1,0 +1,19 @@
+pane	4	1	1	:*	0	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	5	1	1	:*	0	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Beautiful	1	1	:*	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	1	1	:*	1	alex@albuntoo:~/.ssh	:/home/alex/.ssh	1	zsh	:
+pane	Beautiful	2	0	:	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	2	0	:	1	alex@albuntoo:~/.ssh	:/home/alex/.ssh	1	zsh	:
+pane	Beautiful	3	0	:-	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	3	0	:-	1	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	3	0	:-	2	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Minimal	1	1	:*	0	alex@albuntoo:/opt/docker/stacks/wiki	:/opt/docker/stacks/wiki	1	zsh	:zsh
+pane	Minimal	1	1	:*	1	top	:/home/alex	0	top	:top
+pane	Minimal	1	1	:*	2	ctop	:/mnt/smallplex	0	ctop	:ctop
+window	4	1	:zsh	1	:*	63a2,210x47,0,0,13	:
+window	5	1	:zsh	1	:*	61b4,162x36,0,0,15	:
+window	Beautiful	1	:zsh	1	:*	0b23,120x29,0,0{61x29,0,0,1,58x29,62,0,2}	:
+window	Beautiful	2	:zsh	0	:	7384,206x48,0,0{104x48,0,0,3,101x48,105,0,4}	:
+window	Beautiful	3	:zsh	0	:-	ae36,206x48,0,0[206x23,0,0,6,206x24,0,24{102x24,0,24,7,103x24,103,24,8}]	:
+window	Minimal	1	:PowerCenter	1	:*	74ec,120x29,0,0{50x29,0,0,9,69x29,51,0[69x13,51,0,11,69x15,51,14,14]}	off
+state	Minimal	Beautiful

@@ -1,0 +1,13 @@
+pane	6	1	1	:*	0	alex@albuntoo:/opt/images	:/	1	sudo	:sudo -s
+pane	Beautiful	1	0	:-	0	alex@albuntoo:~/.config/bat	:/home/alex/.config/bat	0	zsh	:bash
+pane	Beautiful	1	0	:-	1	alex@albuntoo:/opt/docker	:/opt/docker	0	zsh	:zsh
+pane	Beautiful	1	0	:-	2	alex@albuntoo:~	:/home/alex	1	zsh	:
+pane	Beautiful	2	1	:*	0	alex@albuntoo:~	:/home/alex	0	zsh	:
+pane	Beautiful	2	1	:*	1	htop	:/home/alex	1	htop	:htop
+pane	Beautiful	2	1	:*	2	ctop	:/home/alex	0	ctop	:ctop
+pane	Minimal	1	1	:*	0	alex@albuntoo:~	:/home/alex	1	zsh	:
+window	6	1	:sudo	1	:*	6432,103x47,0,0,13	:
+window	Beautiful	1	:zsh	0	:-	1137,195x35,0,0{109x35,0,0,3,85x35,110,0[85x17,110,0,4,85x17,110,18,20]}	:
+window	Beautiful	2	:htop	1	:*	41b5,195x35,0,0[195x16,0,0,7,195x18,0,17{96x18,0,17,8,98x18,97,17,9}]	:
+window	Minimal	1	:PowerCenter	1	:*	6430,103x47,0,0,11	off
+state	Minimal	6
