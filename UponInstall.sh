@@ -1,6 +1,8 @@
 # Install custom programs
-apt install curl git bat most pygmentize fzf zsh 
-
+apt install curl git bat most python3-pip fzf zsh -y
+pip install pygments
+# Install omz
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -12,14 +14,16 @@ test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/bre
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
 
 # fzf tab completion 
-git clone https://github.com/lincheney/fzf-tab-completion
+git clone https://github.com/lincheney/fzf-tab-completion ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-zsh-plugin
+git clone --depth 1 https://github.com/unixorn/fzf-zsh-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-zsh-plugin
 
 # paste to .zshrc
-source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh
-bindkey '^I' fzf_completion
+# echo "source /path/to/fzf-tab-completion/zsh/fzf-zsh-completion.sh" >> ~/.zshrc
+cp ./.zshrc ~/.zshrc
+# bindkey '^I' fzf_completion
 
 # Graphical stuff
 
-zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
+# zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
 
 
