@@ -142,8 +142,9 @@ alias sudo='sudo '
 alias osync="onedrive --synchronize --single-directory 'linshare'"
 
 #Mouse support
-
+zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
+bindkey '^I' fzf_completion
 
 
 
