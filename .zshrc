@@ -129,17 +129,21 @@ alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.grit,.snv,CVS}'
-alias p='ps -f'
-alias -g H='\| head'
-alias -g T='\| tail'
-alias -g G='\| grep'
-alias -g L='\| less'
-alias -g M='\| MOST'
+# alias p='ps -f'
+# alias -g H='\| head'
+# alias -g T='\| tail'
+# alias -g G='\| grep'
+# alias -g L='\| less'
+# alias -g M='\| MOST'
 alias bat='batcat'
 alias dcd='cd /opt/docker'
 alias dports='docker ps --format "table {{.Names}}\t{{.Ports}}\t{{.Networks}}"'
 alias sudo='sudo '
 alias osync="onedrive --synchronize --single-directory 'linshare'"
+
+#Functions
+gsay() { if [[ "${1}" =~ -[a-z]{2} ]]; then local lang=${1#-}; local text="${*#$1}"; else local lang=${LANG%_*}; local text="$*";fi; mplayer "http://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}&q=${text}" &> /dev/null ; }
+refresh () { while true; do $@; sleep 1; clear; done; }
 
 #Mouse support
 zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
