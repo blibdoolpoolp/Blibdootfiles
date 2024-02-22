@@ -1,11 +1,13 @@
 
 # If you come from bash you might have to change your $PATH.
-export PATH=/home/alex/.local/bin:$HOME/bin:/usr/local/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:$PATH
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 export BACKUP=/mnt/bigplex/backups/albuntoo
 # Mouse support
-#. ~/bin/mouse.zsh
-#zle-toggle-mouse
+# Comment next line after first run
+wget http://stchaz.free.fr/mouse.zsh
+. ./mouse.zsh
+zle-toggle-mouse
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -145,12 +147,11 @@ alias osync="onedrive --synchronize --single-directory 'linshare'"
 gsay() { if [[ "${1}" =~ -[a-z]{2} ]]; then local lang=${1#-}; local text="${*#$1}"; else local lang=${LANG%_*}; local text="$*";fi; mplayer "http://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}&q=${text}" &> /dev/null ; }
 refresh () { while true; do $@; sleep 1; clear; done; }
 
-#Mouse support
+#Zsh Customizations
+# Completions
 zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
+# Tab for fzf completion
 bindkey '^I' fzf_completion
-
-
-
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
