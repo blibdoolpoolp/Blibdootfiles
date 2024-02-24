@@ -1,3 +1,4 @@
 # Install custom programs
 apt install curl git bat most python3-pip fzf zsh -y
-pip install pygments
+read -s -k $'?Press any key to continue.\n'
+python3-pip install pygments

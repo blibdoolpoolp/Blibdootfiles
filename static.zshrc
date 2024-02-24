@@ -6,7 +6,7 @@ export BACKUP=/mnt/bigplex/backups/albuntoo
 # Mouse support
 # Comment next line after first run
 wget http://stchaz.free.fr/mouse.zsh
-. ./mouse.zsh
+. ~/mouse.zsh
 zle-toggle-mouse
 
 # Path to your oh-my-zsh installation.
@@ -29,7 +29,7 @@ ZSH_THEME="random"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
@@ -37,7 +37,7 @@ ZSH_THEME="random"
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
+zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
