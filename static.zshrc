@@ -4,8 +4,19 @@ export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:/home/linuxbrew/.linuxbrew
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 export BACKUP=/mnt/bigplex/backups/albuntoo
 # Mouse support
+if test -f ~/mouse.zsh; 
+
+then {
+. ~/mouse.zsh
+zle-toggle-mouse
+}
+else {
+echo "Downloading and activating mouse mode."
 # Comment next line after first run
 wget http://stchaz.free.fr/mouse.zsh
+. ~/mouse.zsh
+zle-toggle-mouse
+}
 . ~/mouse.zsh
 zle-toggle-mouse
 
