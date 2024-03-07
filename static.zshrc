@@ -17,8 +17,7 @@ wget http://stchaz.free.fr/mouse.zsh
 . ~/mouse.zsh
 zle-toggle-mouse
 }
-. ~/mouse.zsh
-zle-toggle-mouse
+fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -179,6 +178,7 @@ zstyle ':fzf-tab:*' switch-group '<' '>'
 
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
 # Tab for fzf completion
+source ~/.oh-my-zsh/custom/plugins/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 bindkey '^I' fzf_completion
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
