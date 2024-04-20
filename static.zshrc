@@ -88,7 +88,20 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions fast-syntax-highlighting command-not-found sudo copyfile colored-man-pages zsh-eza fzf colorize dirhistory catimg zsh-interactive-cd)
+plugins=(zsh-autosuggestions \
+fast-syntax-highlighting \
+command-not-found \
+sudo \
+copyfile \
+colored-man-pages \
+zsh-eza \
+fzf \
+colorize \
+dirhistory \
+catimg \
+zsh-interactive-cd \
+ \
+)
 
 export ZSH_COLORIZE_STYLE="colorful"
 export ZSH_COLORIZE_CHROMA_FORMATTER="xterm-264colors"
@@ -110,12 +123,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8OA
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
@@ -126,10 +134,44 @@ export ARCHFLAGS="-arch x86_64"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+
+# install  colordiff package :)
+alias diff='colordiff'
+alias mount='mount |column -t'
+# handy short cuts #
+alias h='history'
+alias j='jobs -l'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+# Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 4'
+# Do not wait interval 1 second, go fast #
+alias fastping='ping -c 100 -s.2'
+alias ports='netstat -tulanp'
+## shortcut  for iptables and pass it via sudo#
+alias ipt='sudo /sbin/iptables'
+ 
+# display all rules #
+alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
+alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
+alias iptlistout='sudo /sbin/iptables -L OUTPUT -n -v --line-numbers'
+alias iptlistfw='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
+alias firewall=iptlist
+
+# get web server headers #
+alias header='curl -I'
+ 
+# find out if remote server supports gzip / mod_deflate or not #
+alias headerc='curl -I --compress'
+
+
+alias mkdir='mkdir -pv'
 alias zshconf="nano ~/.zshrc"
 alias omzconf="cd ~/.oh-my-zsh"
-#alias lt="ls --tree"
-#alias ll="ls -l"
+alias lt="ls --tree"
+alias ll="ls -l"
 alias rm='rm -I'
 alias cp='cp -i'
 alias rsync='rsync -Pavh'
