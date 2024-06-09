@@ -1,0 +1,62 @@
+# install  colordiff package :)
+alias diff='colordiff'
+alias mount='mount |column -t'
+# handy short cuts #
+alias h='history'
+alias j='jobs -l'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+                                                                                                       
+
+# Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 4'
+# Do not wait interval 1 second, go fast #
+alias fastping='ping -c 100 -s.2'
+alias ports='netstat -tulanp'
+alias dports='docker ps --format "table {{.Names}}\t{{.Ports}}\t{{.Networks}}"'
+## shortcut  for iptables and pass it via sudo#
+alias ipt='sudo /sbin/iptables'
+
+ 
+# display all rules #
+alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
+alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
+alias iptlistout='sudo /sbin/iptables -L OUTPUT -n -v --line-numbers'
+alias iptlistfw='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
+alias firewall=iptlist
+
+# get web server headers #
+alias header='curl -I'
+ 
+# find out if remote server supports gzip / mod_deflate or not #
+alias headerc='curl -I --compress'
+alias mkdir='mkdir -pv'
+alias zshconf="nano ~/.zshrc"
+alias omzconf="cd ~/.oh-my-zsh"
+alias lt="ls --tree"
+alias ll="ls -l"
+alias rm='rm -I'
+alias cp='cp -i'
+alias rsync='rsync -Pavh'
+alias mv='mv -i'
+alias t='tail -f'
+alias dud='du -d 1 -h'
+alias duf='du -sh'
+alias fd='find . -type d -name'
+alias ff='find . -type f -name'
+alias grep='grep --color'
+alias sgrep='grep -R -n -H -C 5 --exclude-dir={.grit,.snv,CVS}'
+# alias p='ps -f'
+# alias -g H='\| head'
+# alias -g T='\| tail'
+# alias -g G='\| grep'
+# alias -g L='\| less'
+# alias -g M='\| MOST'
+alias bat='batcat'
+alias dcd='cd /opt/docker'
+
+alias sudo='sudo '
+alias osync="onedrive --synchronize --single-directory 'linshare'"
+alias zshconf='nano ~/.zshrc'
